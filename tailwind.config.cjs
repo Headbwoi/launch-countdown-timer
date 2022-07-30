@@ -8,10 +8,10 @@ module.exports = {
     screens: {
       sm: "640px",
       md: "768px",
-      // lg: "1115px",
+      lg: "1024px",
     },
     fontFamily: {
-      sans: ["'Red Hat Text', 'sans_serif'"],
+      redHat: ["'Red Hat Text', 'sans_serif'"],
     },
     colors: {
       Grayish_blue: "hsl(237, 18%, 59%)",
@@ -21,7 +21,11 @@ module.exports = {
       Very_dark_blue: "hsl(235, 16%, 14%)",
       black_blue: "hsl(234, 17%, 12%)",
     },
-    extend: {},
+    extend: {
+      padding: {
+        "px-mobile": "23px",
+      },
+    },
   },
   plugins: [],
 }
