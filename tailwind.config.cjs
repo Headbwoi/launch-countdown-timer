@@ -25,6 +25,18 @@ module.exports = {
       padding: {
         "px-mobile": "23px",
       },
+      height: {
+        cardMobile: "4.375rem",
+        cardDesktop: "9.0625rem",
+      },
+      width: {
+        cardMobile: "4.375rem",
+        cardDesktop: "9.375rem",
+      },
+      boxShadow: {
+        mobile: "0px 5px 0px hsl(234, 17%, 12%)",
+        desktop: "0px 10px 0px hsl(234, 17%, 12%)",
+      },
     },
   },
   plugins: [],
