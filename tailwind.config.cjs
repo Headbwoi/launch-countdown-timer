@@ -27,11 +27,11 @@ module.exports = {
       },
       height: {
         cardMobile: "4.375rem",
-        cardDesktop: "9.0625rem",
+        cardDesktop: "8.75rem",
       },
       width: {
         cardMobile: "4.375rem",
-        cardDesktop: "9.375rem",
+        cardDesktop: "9.3rem",
       },
       boxShadow: {
         mobile: "0px 5px 0px hsl(234, 17%, 12%)",
