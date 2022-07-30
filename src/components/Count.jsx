@@ -4,7 +4,7 @@ import Cards from "./Cards"
 const Count = () => {
   const getDate = () => {
     const presentDate = new Date().getTime()
-    const elapseDate = Date.parse("august 29, 2022")
+    const elapseDate = Date.parse("august 1, 2022")
 
     const dayDivider = 1000 * 24 * 60 * 60
     const hourDivider = 1000 * 60 * 60
@@ -30,10 +30,14 @@ const Count = () => {
   const [time, setTime] = useState(getDate())
   const timer = () => setTime(getDate)
 
-  setInterval(() => {
-    timer()
-  }, 1000)
+  const startTime = () => {
+    setInterval(timer, 1000)
+  }
 
+  const stopTime = () => {
+    clearInterval(timer)
+  }
+  startTime()
   return (
     <>
       <Cards count={time} />
