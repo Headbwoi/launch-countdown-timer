@@ -9,7 +9,7 @@ const Cards = (props) => {
           <span className="block absolute top-1/2 right-0 -translate-y-1/2 w-full h-1 bg-black_blue/10"></span>
           <p className="text-Soft_red text-[28px] md:text-[4.75rem] font-bold font-redHat pl-0.5">
             {props.count.days.toString().padStart(2, "0")}
-            <div className="absolute top-0 left-0 w-full h-1/2 bg-Very_dark_blue/30 -z-10"></div>
+            <span className="absolute top-0 left-0 w-full h-1/2 bg-Very_dark_blue/30 -z-10"></span>
           </p>
         </div>
         <p className="text-center uppercase text-[9px] md:text-xs text-Grayish_blue font-bold font-redHat tracking-[3.75px] md:tracking-[7px]">
@@ -25,7 +25,7 @@ const Cards = (props) => {
           <span className="block absolute top-1/2 right-0 -translate-y-1/2 w-full h-1 bg-black_blue/10"></span>
           <p className="text-Soft_red text-[28px] md:text-[4.75rem] font-bold font-redHat pl-0.5">
             {props.count.hours.toString().padStart(2, "0")}
-            <div className="absolute top-0 left-0 w-full h-1/2 bg-Very_dark_blue/30 -z-10"></div>
+            <span className="absolute top-0 left-0 w-full h-1/2 bg-Very_dark_blue/30 -z-10"></span>
           </p>
         </div>
         <p className="text-center uppercase text-[9px]  md:text-xs text-Grayish_blue font-bold font-redHat tracking-[3.75px] md:tracking-[7px] ">
@@ -41,7 +41,7 @@ const Cards = (props) => {
           <span className="block absolute top-1/2 right-0 -translate-y-1/2 w-full h-1 bg-black_blue/10"></span>
           <p className="text-Soft_red text-[28px] md:text-[4.75rem] font-bold font-redHat pl-0.5">
             {props.count.minutes.toString().padStart(2, "0")}
-            <div className="absolute top-0 left-0 w-full h-1/2 bg-Very_dark_blue/30 -z-10"></div>
+            <span className="absolute top-0 left-0 w-full h-1/2 bg-Very_dark_blue/30 -z-10"></span>
           </p>
         </div>
         <p className="text-center uppercase text-[9px] md:text-xs text-Grayish_blue font-bold font-redHat tracking-[3.75px] md:tracking-[7px]">
@@ -57,7 +57,7 @@ const Cards = (props) => {
           <span className="block absolute top-1/2 right-0 -translate-y-1/2 w-full h-1 bg-black_blue/10"></span>
           <p className="text-Soft_red text-[28px] md:text-[4.75rem] font-bold font-redHat pl-0.5">
             {props.count.seconds.toString().padStart(2, "0")}
-            <div className="absolute top-0 left-0 w-full h-1/2 bg-Very_dark_blue/30 -z-10"></div>
+            <span className="absolute top-0 left-0 w-full h-1/2 bg-Very_dark_blue/30 -z-10"></span>
           </p>
         </div>
         <p className="text-center uppercase text-[9px] md:text-xs  text-Grayish_blue font-bold font-redHat tracking-[3.75px] md:tracking-[7px]">
