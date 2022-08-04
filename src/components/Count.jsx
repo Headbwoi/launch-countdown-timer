@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Cards from "./Cards"
 import Finished from "./Finished"
 
@@ -29,7 +29,12 @@ const Count = () => {
     setInterval(timer, 1000)
   }
 
-  startTime()
+  useEffect(() => {
+    startTime()
+
+    return () => clearInterval(startTime)
+  }, [])
+
   return (
     <>
       {time && <Cards count={time} />}
