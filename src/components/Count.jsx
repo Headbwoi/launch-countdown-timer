@@ -5,7 +5,7 @@ import Finished from "./Finished"
 const Count = () => {
   const getDate = () => {
     const presentDate = new Date().getTime()
-    const elapseDate = Date.parse("august 17, 2022")
+    const elapseDate = Date.parse("august 30, 2022")
 
     const dayDivider = 1000 * 24 * 60 * 60
     const hourDivider = 1000 * 60 * 60
