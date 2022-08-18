@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Launch countdown timer ](images/screenshot.png)
+![Launch countdown timer](images/screenshot.png)
 
 ### Links
 
