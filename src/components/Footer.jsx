@@ -1,4 +1,7 @@
 import React from "react"
+import Facebook from "../Icons/Facebook"
+import Instagram from "../Icons/Instagram"
+import Pinterest from "../Icons/Pinterest"
 
 function Footer() {
   return (
@@ -7,13 +10,13 @@ function Footer() {
       {/* icons */}
       <div className="icons absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full flex items-center justify-center space-x-8">
         <a href="https://facebook.com">
-          <i className="fab fa-facebook-square text-Grayish_blue text-2xl hover:text-Soft_red cursor-pointer duration-200"></i>
+          <Facebook />
         </a>
         <a href="www.pinterest.com">
-          <i className="fab fa-pinterest text-Grayish_blue text-2xl hover:text-Soft_red cursor-pointer duration-200"></i>
+          <Pinterest />
         </a>
         <a href="www.instagram.com">
-          <i className="fab fa-instagram text-Grayish_blue text-2xl hover:text-Soft_red cursor-pointer duration-200"></i>
+          <Instagram />
         </a>
       </div>
     </div>
